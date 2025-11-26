@@ -56,6 +56,33 @@ print(X)
 mylist = ['apple', 'banana', 'cherry']
 print(mylist[0])
 
+age = 30
+txt = f'my name is john and i am {age}'
+print (txt)
+
+price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt)
+
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt.upper())
+
+a = 20
+b = 15
+if b>a:
+    print("b is greater then a")
+else:
+    print("b is not greater then a")
+
+numbers = [1, 2, 3, 4, 5]
+count = len(numbers)
+if count > 3:
+    print(f"List has {count} elements")
+
+if (count := len(numbers)) > 3:
+    print(f"List has {count} elements")
+
+
 
 
 def lovefunc(flower1, flower2):

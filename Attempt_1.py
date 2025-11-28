@@ -112,5 +112,52 @@ print(x[::-1])
 42 == True
 
 
+"receiving user data"
+#data entry
+print("what is your name")
+name = 'imput()'
+print("welcome %s" % name)
+
+#processing
+
+print({5//3})
+
+
+print(round(5/2))
+
+num = 1_000_000
+print(num)
+
+x = "john is king"
+print(x[::-1])
+
+42 == True
+
+radius = 2.2
+pi = 3.14
+radius = radius + 1
+print(radius)
+area = pi*(radius**2)
+print(area)
+
+radius = 2.2
+pi = 3.14
+area = pi*(radius**2)
+radius = radius + 1
+
+x = 1
+y = 2
+temp = y
+y = x
+x = temp
+print(x)
+print(y)
+
+aa = 1
+ab = 2
+ac = 3
+print(type(aa+ac-ab),(aa+ab))
+
+
 
 

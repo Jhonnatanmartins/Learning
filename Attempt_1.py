@@ -175,3 +175,9 @@ print (' ',c)
 print (d)
 
 
+s = 'abcdefgh'
+print (s[0:2])
+print(s[:])
+print(s[0:len(s):-1])
+print(s[:-1])
+

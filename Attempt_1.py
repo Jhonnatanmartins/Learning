@@ -192,3 +192,10 @@ t = 'musketeers'
 print(e,r,t)
 print(e, r, t)
 print(e+r)
+
+text = input("type anything: ")
+print(5*text)
+
+text2 = input('pi: ')
+text3 = int(input('text2'))
+print(1*text3)

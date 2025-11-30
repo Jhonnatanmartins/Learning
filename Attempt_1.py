@@ -185,3 +185,10 @@ print(x)
 print(x[0:5])
 print(x[6:3])
 
+e = 'the'
+r = '3'
+t = 'musketeers'
+
+print(e,r,t)
+print(e, r, t)
+print(e+r)
